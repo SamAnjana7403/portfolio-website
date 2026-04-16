@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samantha Anjana Robert | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ✅ Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="logo">Portfolio</div>
+
+    <nav class="navlinks" id="navlinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Awards & Certs</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-left reveal-card is-in">
+      <p class="kicker micro">Hello, It's Me</p>
+      <h1 class="micro">Samantha Anjana Robert</h1>
+
+      <h2 class="micro">
+        I build as a <span class="accent" id="typing"></span><span class="cursor">|</span>
+      </h2>
+
+      <p class="lead micro">
+        Computer Science graduate with hands-on experience building real-world mobile and full-stack backend applications.
+      </p>
+
+      <div class="hero-actions micro">
+        <a class="btn magnetic" href="#projects">View Projects</a>
+        <a class="btn btn-ghost magnetic" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="mini micro">
+        <span class="pill">Flutter</span>
+        <span class="pill">PHP + MySQL</span>
+        <span class="pill">Python / ML</span>
+        <span class="pill">APIs</span>
+      </div>
+
+      <div class="stats micro">
+        <div class="stat">
+          <div class="stat-num">15+</div>
+          <div class="stat-label">Users Supported</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">20%</div>
+          <div class="stat-label">Onboarding Faster</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">15%</div>
+          <div class="stat-label">Workflow Improved</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="glow-ring float">
+        <img src="assets/profile.jpg" alt="Samantha profile photo" />
+      </div>
+
+      <div class="small-note reveal-card">
+        <div class="note-title">Highlights</div>
+        <ul>
+          <li>Developed 2 production Flutter apps used by 15+ staff</li>
+          <li>Built Encryptify – OCR + Machine Learning encryption system</li>
+          <li>Built full-stack systems using Flutter, PHP, MySQL, and REST APIs</li>
+          <li>Created Flutter training manual & conducted staff workshops</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-title">
+      <h3>About <span class="accent">Me</span></h3>
+      <p>A quick overview of my background, experience, and what I bring as a developer.</p>
+    </div>
+
+    <div class="card reveal-card">
+      <p class="muted small" style="margin-bottom:12px;">
+        I am a motivated developer with practical experience gained through internship and academic projects.
+      </p>
+      <ul class="bullets micro">
+        <li>Computer Science graduate with hands-on experience building real-world mobile applications and full-stack backend systems.</li>
+        <li>Developed and deployed 2 production Flutter applications used daily by 15+ staff users.</li>
+        <li>Built full-stack systems using Flutter, PHP, MySQL, and REST APIs.</li>
+        <li>Improved internal workflows by digitising manual processes and increasing efficiency.</li>
+        <li>Strong problem-solving skills with ability to communicate effectively with both technical and non-technical users.</li>
+      </ul>
+
+      <div class="about-buttons micro">
+        <button class="btn btn-ghost magnetic" type="button" data-about="edu">Education</button>
+        <button class="btn btn-ghost magnetic" type="button" data-about="lang">Languages & Communication</button>
+      </div>
+
+      <div id="aboutBox" class="about-box micro">
+        Select a category above to view more details about my background.
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="section-title">
+    <h3>My <span class="accent">Skills</span></h3>
+    <p>Technologies and strengths I use to build real-world applications.</p>
+  </div>
+
+  <div class="grid-2">
+
+    <!-- Technical Skills -->
+    <div class="card reveal-card">
+      <h4 class="micro">Technical Skills</h4>
+
+      <p class="muted small">
+        I build full-stack applications using Flutter for mobile development and PHP + MySQL for backend systems, with additional experience in Python, OCR, and machine learning projects.
+      </p>
+
+      <p class="muted small micro" style="margin-top:18px"><strong>Strong in:</strong></p>
+      <div class="mini micro">
+        <span class="pill">Python</span>
+        <span class="pill">Flutter</span>
+        <span class="pill">PHP</span>
+        <span class="pill">MySQL</span>
+        <span class="pill">REST APIs</span>
+      </div>
+
+      <p class="muted small micro" style="margin-top:18px"><strong>Programming Languages:</strong></p>
+      <div class="mini micro">
+        <span class="pill">JavaScript</span>
+        <span class="pill">Dart</span>
+        <span class="pill">HTML/CSS</span>
+        <span class="pill">C</span>
+        <span class="pill">C++</span>
+        <span class="pill">Java</span>
+        <span class="pill">SQL</span>
+      </div>
+
+      <p class="muted small micro" style="margin-top:18px"><strong>Frameworks & Libraries:</strong></p>
+      <div class="mini micro">
+        <span class="pill">Flutter</span>
+        <span class="pill">TensorFlow</span>
+        <span class="pill">EasyOCR</span>
+        <span class="pill">CustomTkinter</span>
+      </div>
+
+      <p class="muted small micro" style="margin-top:18px"><strong>Databases:</strong></p>
+      <div class="mini micro">
+        <span class="pill">MySQL</span>
+        <span class="pill">SQL Server</span>
+        <span class="pill">Microsoft Access</span>
+      </div>
+
+      <p class="muted small micro" style="margin-top:18px"><strong>Tools:</strong></p>
+      <div class="mini micro">
+        <span class="pill">VS Code</span>
+        <span class="pill">Spyder</span>
+        <span class="pill">Apache NetBeans</span>
+        <span class="pill">Cisco Packet Tracer</span>
+        <span class="pill">Figma</span>
+        <span class="pill">Canva</span>
+      </div>
+    </div>
+
+    <!-- Professional Strengths -->
+    <div class="card reveal-card">
+      <h4 class="micro">Professional Strengths</h4>
+
+      <div class="mini micro">
+        <span class="pill">Problem Solving</span>
+        <span class="pill">Communication</span>
+        <span class="pill">Teamwork</span>
+        <span class="pill">Responsibility</span>
+        <span class="pill">Documentation & Training</span>
+        <span class="pill">Fast Learner</span>
+        <span class="pill">Deadline Focused</span>
+        <span class="pill">Adaptability</span>
+      </div>
+
+      <div class="soft-extra micro">
+        <h5>Extra Strengths</h5>
+        <ul class="bullets small">
+          <li>Delivered training and documentation for non-technical staff</li>
+          <li>Built production systems used in daily operations</li>
+          <li>Strong problem-solving and independent development skills</li>
+          <li>Clear communication between technical and non-technical teams</li>
+          <li>Able to learn new tools and technologies quickly</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-title">
+      <h3>Experience <span class="accent">& Internship</span></h3>
+       <p>Hands-on experience developing and deploying real-world applications during my internship.</p>
+  </div>
+
+  <div class="card reveal-card">
+    <h4 class="micro">
+      Mobile Application Developer Intern<br/>
+      <span class="muted small">IT Department, Politeknik Ungku Omar</span>
+    </h4>
+    <p class="muted micro">November 2024 – May 2025</p>
+    <p class="accent small">✔ Delivered systems used in real operational workflows</p>
+    <ul class="bullets micro">
+      <li>Developed and deployed 2 production Flutter mobile applications used daily by 15+ staff users.</li>
+      <li>Built full-stack systems by integrating Flutter mobile apps with PHP backend and MySQL database via REST APIs.</li>
+      <li>Improved internal workflow efficiency by digitising manual processes and reducing processing time.</li>
+      <li>Created technical documentation and conducted training sessions for non-technical staff.</li>
+      <li>Collaborated with team members to enhance system performance and usability.</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- AWARDS & CERTIFICATIONS -->
+  <section id="credentials" class="section">
+    <div class="section-title">
+      <h3>Awards <span class="accent">&</span> Certifications</h3>
+      <p>Certifications and achievements that demonstrate my technical and professional capabilities.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card reveal-card">
+        <h4 class="micro">Certifications</h4>
+        <p class="muted small">
+          Certifications demonstrate strong proficiency in productivity tools and structured problem-solving.
+        </p>
+        <ul class="bullets micro">
+          <li>Microsoft Office Specialist – Word Associate (2019)</li>
+          <li>Microsoft Office Specialist – Excel Associate (2019)</li>
+          <li>Microsoft Office Specialist – Access (2016)</li>
+          <li>Microsoft Office Specialist – PowerPoint Associate (2019)</li>
+        </ul>
+      </div>
+
+      <div class="card reveal-card">
+        <h4 class="micro">Awards & Honors</h4>
+        <ul class="bullets micro">
+        <p class="muted small">
+          Achievements reflect hands-on experience in competitive environments and practical application development.
+        </p>
+          <li>
+            <strong>Microsoft Office Specialist Achievements</strong>
+            <ul class="small bullets micro">
+              <li>Certified in Word, Excel, Access, and PowerPoint</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>eMOBIQ Challenge 2023 Participant</strong>
+            <ul class="small bullets micro">
+              <li>Competitive team-based mobile app development challenge</li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="award-actions micro">
+          <button class="btn btn-ghost magnetic" data-award="mos">View Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="section-title">
+    <h3>Featured <span class="accent">Projects</span></h3>
+    <p>Selected projects that highlight my experience in mobile, full-stack, and real-world application development.</p>
+  </div>
+
+    <div class="grid-3">
+      <article class="project card project-neo tilt reveal-card">
+        <div class="project-head micro">
+          <h4>Encryptify (FYP)</h4>
+          <span class="tag">Python • OCR • ML • Security</span>
+        </div>
+        <p class="muted micro">
+          AI-powered desktop application that encrypts and decrypts handwritten text using OCR and machine learning-based key generation, enhancing data privacy and security.
+        </p>  
+        <button class="btn btn-ghost magnetic micro" data-modal="encryptify">View Details</button>
+      </article>
+
+      <article class="project card project-neo tilt reveal-card">
+        <div class="project-head micro">
+          <h4>eHelpdesk</h4>
+          <span class="tag">Flutter • PHP • MySQL</span>
+        </div>
+        <p class="muted micro">
+          Digitised IT issue reporting system that improved internal communication and streamlined workflow for staff through real-time issue tracking.
+        </p>
+        <button class="btn btn-ghost magnetic micro" data-modal="ehelpdesk">View Details</button>
+      </article>
+
+      <article class="project card project-neo tilt reveal-card">
+        <div class="project-head micro">
+          <h4>eHadir</h4>
+          <span class="tag">Flutter • REST API • MySQL</span>
+        </div>
+        <p class="muted micro">
+          Developed a digital attendance system enabling staff check-in/out tracking with automated records, improving accuracy and operational efficiency.
+        </p>
+        <button class="btn btn-ghost magnetic micro" data-modal="ehadir">View Details</button>
+      </article>
+
+      <article class="project card project-neo tilt reveal-card">
+        <div class="project-head micro">
+          <h4>Flutter Manual + Training</h4>
+          <span class="tag">Documentation • Training</span>
+        </div>
+        <p class="muted micro">
+          Created comprehensive Flutter training materials and conducted workshops for non-technical staff, reducing onboarding time and improving team productivity.
+        </p>
+        <button class="btn btn-ghost magnetic micro" data-modal="manual">View Details</button>
+      </article>
+
+      <article class="project card project-neo tilt reveal-card">
+        <div class="project-head micro">
+          <h4>eSticker Enhancement</h4>
+          <span class="tag">Workflow • DB • Search</span>
+        </div>
+        <p class="muted micro">
+          Enhanced internal sticker management system by improving database accuracy and search functionality, increasing efficiency in daily operations.
+        </p>
+        <button class="btn btn-ghost magnetic micro" data-modal="esticker">View Details</button>
+      </article>
+    </div>
+
+      <!-- WHY HIRE ME -->
+    <div class="section-title" style="margin-top:34px">
+      <h3>Why <span class="accent">Hire Me</span>?</h3>
+      <p>Key highlights that make me a strong candidate.</p>
+    </div>
+
+    <div class="card reveal-card">
+       <p>
+        A results-driven Computer Science graduate with hands-on experience building real-world applications used in daily operations.
+      </p>
+
+      <ul class="bullets micro">
+        <li>Developed and deployed 2 production Flutter applications used daily by 15+ staff users</li>
+        <li>Built full-stack systems using Flutter, PHP, MySQL, and REST APIs</li>
+        <li>Improved internal workflows by digitising manual processes and increasing efficiency</li>
+        <li>Developed an AI/ML-based encryption system for handwritten text (Final Year Project)</li>
+        <li>Delivered technical documentation and conducted training for non-technical staff</li>
+        <li>Able to independently design, develop, and deploy complete software solutions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-title">
+      <h3>Contact <span class="accent">Me</span></h3>
+      <p class="muted">
+        Actively seeking Junior Software Developer, Flutter Developer, and Backend Developer opportunities. Open to relocation within Malaysia.
+      </p>
+    </div>
+
+    <div class="card reveal-card">
+
+      <!--Email -->
+  <p class="micro" style="margin-top:10px;"><strong>Email:</strong>
+    <a href="mailto:samanthaanjana7403@gmail.com">
+      samanthaanjana7403@gmail.com
+    </a>
+  </p>
+
+  <!--Phone -->
+  <p class="micro" style="margin-top:10px;"><strong>Phone:</strong>
+    <a href="tel:+60122127403">012-2127403</a>
+  </p>
+
+  <!--LinkedIn -->
+  <p class="micro" style="margin-top:10px;"><strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/samantha-anjana-robert-395562320"
+      target="_blank" rel="noreferrer">
+      linkedin.com/in/samantha-anjana-robert-395562320
+    </a>
+  </p>
+
+  <!--GitHub -->
+  <p class="micro" style="margin-top:10px;"><strong>GitHub:</strong>
+    <a href="https://github.com/SamAnjana7403"
+      target="_blank" rel="noreferrer">
+      github.com/SamAnjana7403
+    </a>
+  </p>
+
+  <!--Resume Download Button -->
+  <p class="micro" style="margin-top:10px;"><strong>Resume:</strong>
+    <a href="assets/Resume_SamanthaAnjanaRobert.pdf"
+       download
+       class="resume-btn">
+       📄 Download Resume
+    </a>
+
+
+  <p class="muted small" style="margin-top:14px;">
+    I’m available for interviews and can start immediately. Let’s connect!
+  </p>
+
+    <p class="muted small" style="margin-top:16px;">
+      <strong>Open to roles:</strong>
+    </p>
+
+    <div class="mini micro">
+      <span class="pill">Software Engineer (Junior)</span>
+      <span class="pill">Flutter Developer</span>
+      <span class="pill">Backend Developer</span>
+      <span class="pill">AI/ML Engineer (Entry Level)</span>
+      <span class="pill">Malaysia</span>
+      <span class="pill">Available Immediately</span>
+    </div>
+  </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Samantha Anjana Robert • Portfolio</p>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
